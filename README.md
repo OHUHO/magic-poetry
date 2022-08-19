@@ -170,6 +170,8 @@ git clone https://github.com/Aubuary/magic-poetry.git
 ##### 4.7.5.2 界面说明
 按钮悬停样式所在的vue文件为HoverButtonView.vue，此按钮与动画按钮相比较更加的朴素，低调，但是每个按钮也都具备了自己的特点，详细参见项目源代码。
 
+#### Gitee下载地址
+https://gitee.com/a-jingchao/magic-poetry
 
 #### 完
 
