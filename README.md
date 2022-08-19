@@ -7,7 +7,7 @@
 魔法诗仅仅是本地环境开发，不具备上线部署的功能，用户如果想要参考此项目的源代码，只需要拉取整个项目到本地即可快速进行二次开发。
 -  拉取整个项目到本地
 ```shell
-git clone https://gitee.com/a-jingchao/magic-poetry.git
+git clone https://github.com/Aubuary/magic-poetry.git
 ```
 - 运行项目所需要的依赖资源
 
