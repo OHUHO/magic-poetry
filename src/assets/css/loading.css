@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .item {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background: #969aec;;
+    animation: item 10 ease-in-out infinite;
+  }
+  .b {
+    animation-delay: .2s;
+  }
+  .c {
+    animation-delay: .4s;
+  }
+  @keyframes item {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  

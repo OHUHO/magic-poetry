@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+        <title><%= htmlWebpackPlugin.options.title %></title>
+    </head>
+    <body>
+    <noscript>
+        <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+            Please enable it to continue.</strong>
+    </noscript>
+    
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    </body>
+    <style>
+        /*使Vue项目完全填充浏览器（无边距）*/
+        body{
+            /*background-image: url(https://wallpapershome.com/images/wallpapers/macos-big-sur-1280x720-dark-wwdc-2020-22655.jpg);*/
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 2em;
+            margin: 0px;
+            width: 100%;
+            height: 100vh;
+        }
+        @media screen and (max-width: 480px){
+            body{
+                padding: 0.8em;
+            }
+        }
+        * {
+            outline: none;
+            box-sizing: border-box;
+        }
+        
+    </style>
+</html>
